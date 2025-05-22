@@ -1,6 +1,7 @@
 name: Environment variables
 on: push
-env: EXAMPLE: Defined by workflow level
+env:
+  EXAMPLE: Defined by workflow level
 jobs:
   print:
     runs-on: ubuntu-latest
